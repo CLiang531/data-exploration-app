@@ -1,0 +1,4 @@
+sql:
+  enabled: true
+
+input_folder: test_data

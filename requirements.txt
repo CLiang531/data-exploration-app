@@ -1,0 +1,18 @@
+# Core data and utilities
+pandas>=2.0
+numpy>=1.25
+PyYAML>=6.0
+python-dotenv>=1.0
+
+# Web / visualization
+streamlit>=1.30
+matplotlib>=3.8
+seaborn>=0.13
+plotly>=6.0
+
+# Database
+psycopg2-binary>=2.9
+SQLAlchemy>=2.0
+
+# File handling / downloads
+kagglehub>=0.3
