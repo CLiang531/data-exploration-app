@@ -130,8 +130,7 @@ project/
 
 1. Clone this repository:  
    ```bash
-   git clone https://github.com/your-username/your-repo.git
-   cd your-repo/src
+   git clone https://github.com/CLiang531/data-exploration-app.git
    ```
 2. Create and activate a virtual environment:
    ```bash
@@ -162,7 +161,12 @@ To the run the app after installation:
    cd src
    python -m streamlit run app.py
    ```
-3. If the app does not pop up on its own, navigate to `localhost:8501` on your browswer
+   Alternatively, run
+   ```bash
+   cd src
+   streamlit run app.py
+   ```
+4. If the app does not pop up on its own, navigate to `localhost:8501` on your browswer
 
 **Note:** If SQL is enabled, uploaded datasets will be remembered across runs. Otherwise, filtering and exploration are done in-memory with pandas and will not save.
 
@@ -180,4 +184,5 @@ To the run the app after installation:
    - Integrate [OpenAI GPT](https://openai.com/) LLM to enable natural language queries directly on datasets so that users can ask specific questions that aren't supported through current search and analysis options.
 - [ ] **Support Comparisons Across Datasets**
    - Allow users to compare multiple datasets side by side; current implementation only allows analysis of one file.
+
 
